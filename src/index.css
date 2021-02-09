@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #07c8d1;
+}
+
+.container {
+  margin: 0 auto;
+  background: #d4daf6;
+  height: 40em;
+  width: 50em;
+  margin-top: 8em;
+  border-radius: 20px;
+}
+.underline {
+  width: 11rem;
+  height: 0.25rem;
+  background: gold;
+  /* margin-left: auto; */
+  margin-right: auto;
+  position: relative;
+  top: 35px;
+  right: 178px;
+}
+.title {
+  padding: 2em 2em 2em 2em;
+  display: flex;
+}
+h1 {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.btn {
+  /* left: 40em; */
+  /* margin-bottom: 40em; */
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.cards {
+  border-left: solid rgb(223, 143, 159);
+  margin-left: 3em;
+  /* border-style: groove; */
+}
+
+h2 {
+  margin-top: 0.5rem;
+  font-size: 1.4em;
+  text-transform: capitalize;
+  /* line-height: 2px; */
+}
+
+@keyframes ldio-6eilskoeki2-o {
+  0% {
+    opacity: 1;
+    transform: translate(0 0);
+  }
+  49.99% {
+    opacity: 1;
+    transform: translate(80px, 0);
+  }
+  50% {
+    opacity: 0;
+    transform: translate(80px, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+}
+@keyframes ldio-6eilskoeki2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(80px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.ldio-6eilskoeki2 div {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  top: 60px;
+  left: 20px;
+}
+.ldio-6eilskoeki2 div:nth-child(1) {
+  background: #e90c59;
+  animation: ldio-6eilskoeki2 1s linear infinite;
+  animation-delay: -0.5s;
+}
+.ldio-6eilskoeki2 div:nth-child(2) {
+  background: #46dff0;
+  animation: ldio-6eilskoeki2 1s linear infinite;
+  animation-delay: 0s;
+}
+.ldio-6eilskoeki2 div:nth-child(3) {
+  background: #e90c59;
+  animation: ldio-6eilskoeki2-o 1s linear infinite;
+  animation-delay: -0.5s;
+}
+.loadingio-spinner-dual-ball-0l3sr871e4w {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+  margin-top: 20em;
+  margin-left: 50em;
+}
+.ldio-6eilskoeki2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+.ldio-6eilskoeki2 div {
+  box-sizing: content-box;
+}
+
+@media screen and (max-width: 600px) {
+  .loadingio-spinner-dual-ball-0l3sr871e4w {
+    margin-left: 15em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .loadingio-spinner-dual-ball-0l3sr871e4w {
+    margin-left: 5em;
+  }
+  .container {
+    width: 24em;
+    height: 40em;
+  }
+
+  h1 {
+    font-size: 17px;
+    font-weight: bold;
+    /* margin-bottom: 10em; */
+  }
+  .underline {
+    width: 8rem;
+    height: 0.25rem;
+    background: gold;
+    position: relative;
+    top: 20px;
+    right: 130px;
+  }
+}
