@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 // const Student = ({ filteredData }) => {
 //   return (
@@ -15,11 +15,11 @@ import React from "react";
 //   );
 // };
 
-function Student({ filteredData }) {
+const Student = ({ filteredData }) => {
   return (
     <>
       {filteredData.map((item) => {
-        const { id, skills, course } = item;
+        const { id, skills, course } = item
         return (
           <article key={id}>
             <div className="cards">
@@ -27,10 +27,10 @@ function Student({ filteredData }) {
               <h6>{course}</h6>
             </div>
           </article>
-        );
+        )
       })}
     </>
-  );
+  )
 }
 
-export default Student;
+export default Student
