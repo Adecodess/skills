@@ -1,27 +1,27 @@
-import React, { useState, useEffect } from "react";
-import Loading from "./Loading";
-import Student from "./Student";
-import data from "./data";
+import React, { useState, useEffect } from 'react'
+import Loading from './Loading'
+import Student from './Student'
+import data from './data'
 
-function App() {
-  const [filteredData, setFilteredData] = useState([]);
-  const [loading, setLoading] = useState(true);
+const App = () => {
+  const [filteredData, setFilteredData] = useState([])
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const arr = data.filter((item) => item.id <= 3);
-    setFilteredData(arr);
-  }, []);
+    const arr = data.filter((item) => item.id <= 3)
+    setFilteredData(arr)
+  }, [])
   const showSkills = () => {
-    setFilteredData(data);
-  };
+    setFilteredData(data)
+  }
 
-  setTimeout(() => setLoading(false), 3000);
+  setTimeout(() => setLoading(false), 3000)
   if (loading) {
     return (
       <main>
         <Loading />
       </main>
-    );
+    )
   }
 
   return (
@@ -35,7 +35,7 @@ function App() {
       </div>
       <Student filteredData={filteredData} />
     </section>
-  );
+  )
 }
 
-export default App;
+export default App
