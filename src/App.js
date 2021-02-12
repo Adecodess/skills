@@ -28,7 +28,7 @@ const App = () => {
     <section className="container">
       <div className="title">
         <h1>learn new skills</h1>
-        <h2>learn another skills</h2>
+        <h2>learn another skills in react</h2>
         <div className="underline"></div>
         <button className="btn" onClick={showSkills}>
           view all
